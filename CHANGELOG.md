@@ -18,8 +18,4 @@
     - Provides a simple logging function that writes basic process information to a log file.
 - **Repository Initialization:**  
   - Git repository initialized and commit recorded with a message outlining the basic setup.
-
-*Commit Message Example:*  
-"Day 1: Setup initial folder structure (SPM/implementation/src, SPM/implementation/include), added empty CMakeLists.txt, main.cpp, and initial header files (ProcessMonitor.h, ProcessControl.h, Logger.h) with placeholder implementations."
-
 ---
