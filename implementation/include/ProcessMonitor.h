@@ -1,5 +1,5 @@
-#ifndef PROCESSMONITOR_H
-#define PROCESSMONITOR_H
+#ifndef PROCESS_MONITOR_H
+#define PROCESS_MONITOR_H
 
 #include <vector>
 #include <string>
@@ -9,14 +9,16 @@ struct Process {
     std::string name;
 };
 
-namespace ProcessMonitor {
-    std::vector<Process> listProcesses() {
-        return std::vector<Process>{
-            {1, "System"},
-            {2, "Kernel"},
-            {3, "Init"}
+class ProcessMonitor {
+public:
+    // Directly define the function in the header file
+    static std::vector<Process> listProcesses() {
+        return {
+            {1234, "example.exe"},
+            {5678, "test.exe"}
         };
     }
-}
+};
 
-#endif // PROCESSMONITOR_H
+#endif // PROCESS_MONITOR_H
+

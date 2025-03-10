@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\spm.dir/objects.a
+C:\progs\Mingw\w64devkit\bin\ar.exe qc CMakeFiles\spm.dir/objects.a @CMakeFiles\spm.dir\objects1.rsp
+C:\progs\Mingw\w64devkit\bin\g++.exe  -Wall -Wextra -pedantic -Wl,--whole-archive CMakeFiles\spm.dir/objects.a -Wl,--no-whole-archive -o spm.exe -Wl,--out-implib,libspm.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\spm.dir\linkLibs.rsp

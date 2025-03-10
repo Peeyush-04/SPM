@@ -19,9 +19,9 @@ int main() {
         std::cout << "4. Log Processes to File\n";
         std::cout << "5. Exit\n";
         std::cout << "Enter your choice: ";
-        
+
         if (!(std::cin >> choice)) {
-            std::cout << "Invalid input. Please try again.\n";
+            std::cout << "Invalid input. Please enter a number.\n";
             clearInputBuffer();
             continue;
         }
@@ -29,9 +29,9 @@ int main() {
         switch (choice) {
             case 1: {
                 auto processes = ProcessMonitor::listProcesses();
-                std::cout << "Running Processes:\n";
+                std::cout << "Running Processes:\nPID\t\tName\n-----------------------------\n";
                 for (const auto& proc : processes) {
-                    std::cout << "PID: " << proc.pid << " Name: " << proc.name << "\n";
+                    std::cout << proc.pid << "\t\t" << proc.name << "\n";
                 }
                 break;
             }
@@ -39,31 +39,32 @@ int main() {
                 int pid;
                 std::cout << "Enter PID to kill: ";
                 if (!(std::cin >> pid)) {
-                    std::cout << "Invalid PID. Please try again.\n";
+                    std::cout << "Invalid PID. Please enter a number.\n";
                     clearInputBuffer();
                     continue;
                 }
                 if (ProcessControl::killProcess(pid))
-                    std::cout << "Process killed successfully.\n";
+                    std::cout << "Process " << pid << " killed successfully.\n";
                 else
-                    std::cout << "Failed to kill process.\n";
+                    std::cout << "Failed to kill process " << pid << ".\n";
                 break;
             }
             case 3: {
-                int pid, priority;
+                int pid, newPriority;
                 std::cout << "Enter PID to change priority: ";
                 if (!(std::cin >> pid)) {
-                    std::cout << "Invalid PID. Please try again.\n";
+                    std::cout << "Invalid PID. Please enter a number.\n";
                     clearInputBuffer();
                     continue;
                 }
-                std::cout << "Enter new priority: ";
-                if (!(std::cin >> priority)) {
-                    std::cout << "Invalid priority. Please try again.\n";
+                std::cout << "Priority Levels:\n1. Idle\n2. Below Normal\n3. Normal\n4. Above Normal\n5. High\n";
+                std::cout << "Enter new priority (1-5): ";
+                if (!(std::cin >> newPriority) || newPriority < 1 || newPriority > 5) {
+                    std::cout << "Invalid priority. Please enter a number between 1 and 5.\n";
                     clearInputBuffer();
                     continue;
                 }
-                if (ProcessControl::changeProcessPriority(pid, priority))
+                if (ProcessControl::changeProcessPriority(pid, newPriority))
                     std::cout << "Priority changed successfully.\n";
                 else
                     std::cout << "Failed to change priority.\n";
@@ -84,3 +85,4 @@ int main() {
     }
     return 0;
 }
+

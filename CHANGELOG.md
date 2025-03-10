@@ -18,4 +18,11 @@
     - Provides a simple logging function that writes basic process information to a log file.
 - **Repository Initialization:**  
   - Git repository initialized and commit recorded with a message outlining the basic setup.
+
+### Day 2 - Initial Setup
+- Created `CMakeLists.txt` for project configuration.
+- Added `main.cpp` to handle the process management.
+- Implemented basic structure for logging, process listing, and control.
+- Established header files for `Logger`, `ProcessMonitor`, and `ProcessControl`.
+
 ---
