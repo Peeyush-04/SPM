@@ -20,7 +20,7 @@
   - Git repository initialized and commit recorded with a message outlining the basic setup.
 
 ### Day 2 - Initial Setup
--## Features:
+- ## Features:
   - **Implemented process management functionality**:
     - **Listing processes**: Added functionality to list running processes with their PIDs and names.
     - **Kill process**: Implemented functionality to kill a running process by its PID.
