@@ -1,27 +1,69 @@
 #include <iostream>
 #include <vector>
-
+#include <string>
+#include <iomanip>
+#include <sstream>
 #include "../include/ProcessMonitor.h"
 #include "../include/ProcessControl.h"
 #include "../include/Logger.h"
 
 using namespace std;
 
-void printProcesses(const vector<Process>& processes) {
-    cout << "PID\tName" << endl;
-    cout << "----------------------" << endl;
-    for (const auto &proc : processes) {
-        cout << proc.pid << "\t" << proc.name << endl;
+// Helper function to center align a string.
+string centerString(const string &s, int width) {
+    int len = s.length();
+    if (width <= len) return s;
+    int pad = width - len;
+    int padLeft = pad / 2;
+    int padRight = pad - padLeft;
+    return string(padLeft, ' ') + s + string(padRight, ' ');
+}
+
+// Helper function to print a horizontal line.
+void printHorizontalLine(int pidWidth, int nameWidth, int statusWidth, int priorityWidth) {
+    cout << "+" 
+         << string(pidWidth, '-') << "+"
+         << string(nameWidth, '-') << "+"
+         << string(statusWidth, '-') << "+"
+         << string(priorityWidth, '-') << "+"
+         << endl;
+}
+
+// Prints the process table to the console in table format.
+void printProcesses(const vector<Process>& processes, int pidWidth = 5, int nameWidth = 25, int statusWidth = 12, int priorityWidth = 8) {
+    // Print header
+    printHorizontalLine(pidWidth, nameWidth, statusWidth, priorityWidth);
+    cout << "|" << centerString("PID", pidWidth)
+         << "|" << centerString("Name", nameWidth)
+         << "|" << centerString("Status", statusWidth)
+         << "|" << centerString("Priority", priorityWidth)
+         << "|" << endl;
+    printHorizontalLine(pidWidth, nameWidth, statusWidth, priorityWidth);
+
+    // Print each process row.
+    for (const auto& proc : processes) {
+        string displayName = proc.name;
+        if (displayName.length() > nameWidth) {
+            displayName = displayName.substr(0, nameWidth - 3) + "...";
+        }
+        cout << "|" << centerString(to_string(proc.pid), pidWidth)
+             << "|" << centerString(displayName, nameWidth)
+             << "|" << centerString(proc.status, statusWidth)
+             << "|" << centerString(to_string(proc.priority), priorityWidth)
+             << "|" << endl;
     }
+    printHorizontalLine(pidWidth, nameWidth, statusWidth, priorityWidth);
 }
 
 int main() {
     int choice;
+    int pid, newPriority;
+    
     // Initialize both loggers.
     ImplementationLogger::init("logs/implementation_log.txt");
     ProcessLogger::init("logs/process_log.txt");
     ImplementationLogger::log(ImplementationLogger::INFO, "SPM started.");
-
+    
     while (true) {
         cout << "\n=== Smart Process Manager (SPM) ===" << endl;
         cout << "1. List Processes" << endl;
@@ -31,7 +73,7 @@ int main() {
         cout << "5. Exit" << endl;
         cout << "Enter your choice: ";
         cin >> choice;
-
+        
         switch (choice) {
             case 1: {
                 ImplementationLogger::log(ImplementationLogger::INFO, "Listing processes.");
@@ -40,43 +82,47 @@ int main() {
                 break;
             }
             case 2: {
-                int pid;
                 cout << "Enter PID to kill: ";
                 cin >> pid;
                 if (killProcess(pid)) {
                     cout << "Process " << pid << " killed successfully." << endl;
-                    ImplementationLogger::log(ImplementationLogger::INFO, "Killed process with PID " + std::to_string(pid));
+                    ImplementationLogger::log(ImplementationLogger::INFO, "Killed process with PID " + to_string(pid));
                 } else {
                     cout << "Failed to kill process " << pid << "." << endl;
-                    ImplementationLogger::log(ImplementationLogger::LOG_ERROR, "Failed to kill process with PID " + std::to_string(pid));
+                    ImplementationLogger::log(ImplementationLogger::LOG_ERROR, "Failed to kill process with PID " + to_string(pid));
                 }
                 break;
             }
             case 3: {
-                int pid, newPriority;
                 cout << "Enter PID to change priority: ";
                 cin >> pid;
+                Process beforeChange = getProcessInfo(pid);
+                cout << "Current priority for process " << pid << ": " << beforeChange.priority << endl;
                 cout << "For Windows, use 1 (Idle) to 5 (High)." << endl;
-                cout << "For Linux, enter nice value (-20 to 19): ";
+                cout << "For Linux, enter desired nice value (-20 to 19): ";
                 cin >> newPriority;
                 if (changeProcessPriority(pid, newPriority)) {
+                    Process afterChange = getProcessInfo(pid);
                     cout << "Priority changed successfully for process " << pid << "." << endl;
-                    ImplementationLogger::log(ImplementationLogger::INFO, "Changed priority for PID " + std::to_string(pid) + " to " + std::to_string(newPriority));
+                    ImplementationLogger::log(ImplementationLogger::INFO, 
+                        "Changed priority for PID " + to_string(pid) +
+                        " from " + to_string(beforeChange.priority) +
+                        " to " + to_string(afterChange.priority));
                 } else {
                     cout << "Failed to change priority for process " << pid << "." << endl;
-                    ImplementationLogger::log(ImplementationLogger::LOG_ERROR, "Failed to change priority for PID " + std::to_string(pid));
+                    ImplementationLogger::log(ImplementationLogger::LOG_ERROR, "Failed to change priority for PID " + to_string(pid));
                 }
                 break;
             }
             case 4: {
                 auto processes = listProcesses();
                 ProcessLogger::update(processes);
-                cout << "Process log updated." << endl;
+                cout << "Process log updated (table format logged to file)." << endl;
                 break;
             }
             case 5: {
                 ImplementationLogger::log(ImplementationLogger::INFO, "Exiting SPM.");
-                goto exit_loop;  // using goto to break out of the loop for clarity
+                goto exit_loop;
             }
             default: {
                 cout << "Invalid choice! Try again." << endl;
