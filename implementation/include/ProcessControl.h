@@ -3,13 +3,14 @@
 
 #include <iostream>
 #ifdef _WIN32
-  #include <windows.h>
+    #include <windows.h>
 #else
-  #include <signal.h>
-  #include <sys/resource.h>
-  #include <unistd.h>
+    #include <signal.h>
+    #include <sys/resource.h>
+    #include <unistd.h>
 #endif
 
+// Kills the process with the given PID.
 inline bool killProcess(int pid) {
 #ifdef _WIN32
     HANDLE hProcess = OpenProcess(PROCESS_TERMINATE, FALSE, pid);
@@ -25,6 +26,8 @@ inline bool killProcess(int pid) {
 #endif
 }
 
+// Changes the process's priority.
+// On Windows, newPriority: 1 (Idle) to 5 (High). On Linux, newPriority is the nice value.
 inline bool changeProcessPriority(int pid, int newPriority) {
 #ifdef _WIN32
     HANDLE hProcess = OpenProcess(PROCESS_SET_INFORMATION, FALSE, pid);
