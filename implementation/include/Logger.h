@@ -29,7 +29,7 @@ public:
         LOG_ERROR
     };
 
-    // Initialize the implementation logger.
+    // Initializes the logger.
     static void init(const std::string& logFilePath = "logs/implementation_log.txt") {
         std::lock_guard<std::mutex> guard(mutex_);
         createDirectory("logs");
@@ -39,7 +39,7 @@ public:
         }
     }
 
-    // Log a message at the specified level.
+    // Logs a message.
     static void log(LogLevel level, const std::string& message) {
         std::lock_guard<std::mutex> guard(mutex_);
         if (!instance().logFile_.is_open()) {
@@ -87,7 +87,7 @@ std::mutex ImplementationLogger::mutex_;
 // ============================ Process Logger =============================
 class ProcessLogger {
 public:
-    // Initialize the process logger.
+    // Initializes the process logger.
     static void init(const std::string& logFilePath = "logs/process_log.txt") {
         std::lock_guard<std::mutex> guard(mutex_);
         createDirectory("logs");
@@ -97,22 +97,22 @@ public:
         }
     }
 
-    // Updates the process log with the current list of processes in table format.
+    // Updates the process log with a table-format output.
     static void update(const std::vector<struct Process>& processes) {
         std::ostringstream oss;
         int pidWidth = 5, nameWidth = 25, statusWidth = 12, priorityWidth = 8;
         
-        // Helper lambda to center align a string.
+        // Lambda to center align a string.
         auto centerString = [](const std::string &s, int width) -> std::string {
             int len = s.length();
-            if(width <= len) return s;
+            if (width <= len) return s;
             int pad = width - len;
             int padLeft = pad / 2;
             int padRight = pad - padLeft;
             return std::string(padLeft, ' ') + s + std::string(padRight, ' ');
         };
         
-        // Helper lambda to create a horizontal line.
+        // Lambda to create a horizontal line.
         auto horizontalLine = [&]() -> std::string {
             return "+" + std::string(pidWidth, '-') + "+" + std::string(nameWidth, '-') +
                    "+" + std::string(statusWidth, '-') + "+" + std::string(priorityWidth, '-') + "+\n";
@@ -141,7 +141,7 @@ public:
         logTable(oss.str());
     }
     
-    // Logs a table string to the process log file.
+    // Logs the given table string.
     static void logTable(const std::string &tableStr) {
         std::lock_guard<std::mutex> guard(mutex_);
         if (!instance().logFile_.is_open()) {
