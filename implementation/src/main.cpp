@@ -3,6 +3,7 @@
 #include <string>
 #include <iomanip>
 #include <sstream>
+#include <algorithm>
 #include "../include/ProcessMonitor.h"
 #include "../include/ProcessControl.h"
 #include "../include/Logger.h"
@@ -29,9 +30,9 @@ void printHorizontalLine(int pidWidth, int nameWidth, int statusWidth, int prior
          << endl;
 }
 
-// Prints the process table to the console in table format.
+// Prints the process table to the console with table borders.
 void printProcesses(const vector<Process>& processes, int pidWidth = 5, int nameWidth = 25, int statusWidth = 12, int priorityWidth = 8) {
-    // Print header
+    // Print header.
     printHorizontalLine(pidWidth, nameWidth, statusWidth, priorityWidth);
     cout << "|" << centerString("PID", pidWidth)
          << "|" << centerString("Name", nameWidth)
@@ -59,7 +60,7 @@ int main() {
     int choice;
     int pid, newPriority;
     
-    // Initialize both loggers.
+    // Initialize loggers.
     ImplementationLogger::init("logs/implementation_log.txt");
     ProcessLogger::init("logs/process_log.txt");
     ImplementationLogger::log(ImplementationLogger::INFO, "SPM started.");
@@ -96,6 +97,18 @@ int main() {
             case 3: {
                 cout << "Enter PID to change priority: ";
                 cin >> pid;
+                
+                // Retrieve current processes to check if PID exists.
+                auto processes = listProcesses();
+                auto it = std::find_if(processes.begin(), processes.end(), [pid](const Process &p) {
+                    return p.pid == pid;
+                });
+                if (it == processes.end()) {
+                    cout << "[ERROR] Process ID " << pid << " not found. Please enter a valid PID." << endl;
+                    ImplementationLogger::log(ImplementationLogger::LOG_ERROR, "Attempted to change priority for invalid PID " + to_string(pid));
+                    break;
+                }
+                
                 Process beforeChange = getProcessInfo(pid);
                 cout << "Current priority for process " << pid << ": " << beforeChange.priority << endl;
                 cout << "For Windows, use 1 (Idle) to 5 (High)." << endl;
