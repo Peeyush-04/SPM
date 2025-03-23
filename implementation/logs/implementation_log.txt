@@ -9,3 +9,11 @@
 [2025-03-23 02:18:31] INFO: Listing processes.
 [2025-03-23 02:18:53] INFO: Changed priority for PID 40056 from 3 to 5
 [2025-03-23 02:18:59] INFO: Listing processes.
+[2025-03-23 16:26:35] INFO: SPM started.
+[2025-03-23 16:26:38] INFO: Listing processes.
+[2025-03-23 16:37:29] INFO: SPM started.
+[2025-03-23 16:37:30] INFO: Listing processes.
+[2025-03-23 16:38:08] INFO: Changed priority for PID 11816 from 3 to 5
+[2025-03-23 16:38:10] INFO: Listing processes.
+[2025-03-23 16:38:16] INFO: Killed process with PID 11816
+[2025-03-23 16:38:21] INFO: Exiting SPM.

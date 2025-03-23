@@ -1122,3 +1122,1015 @@
 |4432 |   WindowsTerminal.exe   |  Running   |   3    |
 +-----+-------------------------+------------+--------+
 
++-----+-------------------------+------------+--------+
+| PID |          Name           |   Status   |Priority|
++-----+-------------------------+------------+--------+
+|  0  |    [System Process]     |  Unknown   |   0    |
+|  4  |         System          |  Unknown   |   0    |
+| 236 |      Secure System      |  Unknown   |   0    |
+| 280 |        Registry         |  Unknown   |   0    |
+| 724 |        smss.exe         |  Unknown   |   0    |
+|1092 |        csrss.exe        |  Unknown   |   0    |
+|1208 |       wininit.exe       |  Unknown   |   0    |
+|1216 |        csrss.exe        |  Unknown   |   0    |
+|1280 |      services.exe       |  Unknown   |   0    |
+|1300 |       LsaIso.exe        |  Unknown   |   0    |
+|1308 |        lsass.exe        |  Unknown   |   0    |
+|1440 |       svchost.exe       |  Unknown   |   0    |
+|1472 |      WUDFHost.exe       |  Unknown   |   0    |
+|1488 |     fontdrvhost.exe     |  Unknown   |   0    |
+|1580 |      winlogon.exe       |  Unknown   |   0    |
+|1652 |       svchost.exe       |  Unknown   |   0    |
+|1668 |     fontdrvhost.exe     |  Unknown   |   0    |
+|1740 |       svchost.exe       |  Unknown   |   0    |
+|1792 |      WUDFHost.exe       |  Unknown   |   0    |
+|1872 |         dwm.exe         |  Unknown   |   0    |
+|1952 |      WUDFHost.exe       |  Unknown   |   0    |
+|1336 |       svchost.exe       |  Unknown   |   0    |
+|1320 |       svchost.exe       |  Unknown   |   0    |
+|1080 |       svchost.exe       |  Unknown   |   0    |
+|2052 |       svchost.exe       |  Unknown   |   0    |
+|2064 |       svchost.exe       |  Unknown   |   0    |
+|2080 |       svchost.exe       |  Unknown   |   0    |
+|2096 |       svchost.exe       |  Unknown   |   0    |
+|2292 |       svchost.exe       |  Unknown   |   0    |
+|2360 |       svchost.exe       |  Unknown   |   0    |
+|2376 |       svchost.exe       |  Unknown   |   0    |
+|2416 |       svchost.exe       |  Unknown   |   0    |
+|2424 |       svchost.exe       |  Unknown   |   0    |
+|2436 |       svchost.exe       |  Unknown   |   0    |
+|2616 |   IntelCpHDCPSvc.exe    |  Unknown   |   0    |
+|2636 |       svchost.exe       |  Unknown   |   0    |
+|2652 |       svchost.exe       |  Unknown   |   0    |
+|2660 |       svchost.exe       |  Unknown   |   0    |
+|2732 |       svchost.exe       |  Unknown   |   0    |
+|2788 |       svchost.exe       |  Unknown   |   0    |
+|2804 |       svchost.exe       |  Unknown   |   0    |
+|2984 |       svchost.exe       |  Unknown   |   0    |
+|3192 |       svchost.exe       |  Unknown   |   0    |
+|3240 |       svchost.exe       |  Unknown   |   0    |
+|3516 |       svchost.exe       |  Unknown   |   0    |
+|3556 | NVDisplay.Container.exe |  Unknown   |   0    |
+|3592 |       svchost.exe       |  Unknown   |   0    |
+|3628 |       svchost.exe       |  Unknown   |   0    |
+|3776 |       svchost.exe       |  Unknown   |   0    |
+|3784 |       svchost.exe       |  Unknown   |   0    |
+|3792 |       svchost.exe       |  Unknown   |   0    |
+|3836 | NVDisplay.Container.exe |  Unknown   |   0    |
+|3944 |   Memory Compression    |  Unknown   |   0    |
+|3964 |       svchost.exe       |  Unknown   |   0    |
+|4044 |       svchost.exe       |  Unknown   |   0    |
+|4052 |       svchost.exe       |  Unknown   |   0    |
+|1552 |       svchost.exe       |  Unknown   |   0    |
+|4200 |       svchost.exe       |  Unknown   |   0    |
+|4340 |       svchost.exe       |  Unknown   |   0    |
+|4464 |       svchost.exe       |  Unknown   |   0    |
+|4520 |       svchost.exe       |  Unknown   |   0    |
+|4584 |       svchost.exe       |  Unknown   |   0    |
+|4640 |       svchost.exe       |  Unknown   |   0    |
+|4676 |       audiodg.exe       |  Unknown   |   0    |
+|4764 |       spoolsv.exe       |  Unknown   |   0    |
+|4812 |       svchost.exe       |  Unknown   |   0    |
+|4948 |       svchost.exe       |  Unknown   |   0    |
+|4992 |       svchost.exe       |  Unknown   |   0    |
+|4776 |       DAX3API.exe       |  Unknown   |   0    |
+|5028 |    Dell.TechHub.exe     |  Unknown   |   0    |
+|4864 |       svchost.exe       |  Unknown   |   0    |
+|5124 |       svchost.exe       |  Unknown   |   0    |
+|5132 |      warp-svc.exe       |  Unknown   |   0    |
+|5140 |  IntelAudioService.exe  |  Unknown   |   0    |
+|5152 |       ipf_uf.exe        |  Unknown   |   0    |
+|5160 |       svchost.exe       |  Unknown   |   0    |
+|5168 |       ipfsvc.exe        |  Unknown   |   0    |
+|5184 |     jhi_service.exe     |  Unknown   |   0    |
+|5192 |OneApp.IGCC.WinService...|  Unknown   |   0    |
+|5200 | IgoAudioService_x64.exe |  Unknown   |   0    |
+|5212 |       svchost.exe       |  Unknown   |   0    |
+|5276 |  OfficeClickToRun.exe   |  Unknown   |   0    |
+|5284 |     nvcontainer.exe     |  Unknown   |   0    |
+|5328 |     mc-fw-host.exe      |  Unknown   |   0    |
+|5304 |       svchost.exe       |  Unknown   |   0    |
+|5348 |    RstMwService.exe     |  Unknown   |   0    |
+|5376 |  RtkAudUService64.exe   |  Unknown   |   0    |
+|5440 |       svchost.exe       |  Unknown   |   0    |
+|5452 |WMIRegistrationService...|  Unknown   |   0    |
+|5468 |       svchost.exe       |  Unknown   |   0    |
+|6076 |       svchost.exe       |  Unknown   |   0    |
+|6388 |       svchost.exe       |  Unknown   |   0    |
+|6232 |       svchost.exe       |  Unknown   |   0    |
+|7176 |     iGoSwServer.exe     |  Unknown   |   0    |
+|7236 |       NgcIso.exe        |  Unknown   |   0    |
+|8048 |      WmiPrvSE.exe       |  Unknown   |   0    |
+|7904 |       wlanext.exe       |  Unknown   |   0    |
+|8412 |   gamingservices.exe    |  Unknown   |   0    |
+|8424 |  gamingservicesnet.exe  |  Unknown   |   0    |
+|8528 |       svchost.exe       |  Unknown   |   0    |
+|8748 |   AggregatorHost.exe    |  Unknown   |   0    |
+|5116 |       svchost.exe       |  Unknown   |   0    |
+|9016 |       svchost.exe       |  Unknown   |   0    |
+|8848 |       svchost.exe       |  Unknown   |   0    |
+|8728 |       svchost.exe       |  Unknown   |   0    |
+|9272 |       svchost.exe       |  Unknown   |   0    |
+|10008|  RtkAudUService64.exe   |  Unknown   |   0    |
+|10080|     nvcontainer.exe     |  Unknown   |   0    |
+|10088|      WmiPrvSE.exe       |  Unknown   |   0    |
+|9580 |     ipf_helper.exe      |  Running   |   3    |
+|9736 |     nvcontainer.exe     |  Running   |   3    |
+|9320 |       sihost.exe        |  Running   |   3    |
+|9372 |     nvcontainer.exe     |  Running   |   3    |
+|3116 |     mc-fw-host.exe      |  Unknown   |   0    |
+|7092 |       svchost.exe       |  Running   |   3    |
+|6848 |       svchost.exe       |  Running   |   3    |
+|9848 |       DAX3API.exe       |  Unknown   |   0    |
+|9500 |       svchost.exe       |  Running   |   3    |
+|10320|       svchost.exe       |  Running   |   3    |
+|10484|     iGoSwServer.exe     |  Running   |   2    |
+|10604|       svchost.exe       |  Unknown   |   0    |
+|10612|       svchost.exe       |  Unknown   |   0    |
+|10908|      taskhostw.exe      |  Running   |   3    |
+|11096|      explorer.exe       |  Running   |   3    |
+|11104|      ShellHost.exe      |  Running   |   3    |
+|11288|       svchost.exe       |  Unknown   |   0    |
+|11368|    SearchIndexer.exe    |  Unknown   |   0    |
+|11676|       svchost.exe       |  Running   |   3    |
+|12096|StartMenuExperienceHos...|  Running   |   3    |
+|12104|     SearchHost.exe      |  Running   |   3    |
+|12212|       Widgets.exe       |  Running   |   3    |
+|11604|    RuntimeBroker.exe    |  Running   |   3    |
+|11620|       svchost.exe       |  Running   |   3    |
+|10592|    RuntimeBroker.exe    |  Running   |   3    |
+|12432|    nvsphelper64.exe     |  Unknown   |   0    |
+|12496|   NVIDIA Overlay.exe    |  Running   |   3    |
+|13004|       dllhost.exe       |  Running   |   3    |
+|13348|       svchost.exe       |  Unknown   |   0    |
+|14192|   NVIDIA Overlay.exe    |  Running   |   4    |
+|14880|       ctfmon.exe        |  Unknown   |   0    |
+|15196|   NVIDIA Overlay.exe    |  Running   |   3    |
+|15208|   NVIDIA Overlay.exe    |  Running   |   3    |
+|15264|   NVIDIA Overlay.exe    |  Running   |   3    |
+|15380|SecurityHealthSystray.exe|  Running   |   3    |
+|15400|SecurityHealthService.exe|  Unknown   |   0    |
+|15552|  RtkAudUService64.exe   |  Running   |   3    |
+|15760|       jusched.exe       |  Running   |   3    |
+|15784|       svchost.exe       |  Unknown   |   0    |
+|6008 |    TextInputHost.exe    |  Running   |   5    |
+|16336|       chrome.exe        |  Running   |   3    |
+|16372|       chrome.exe        |  Running   |   3    |
+|4480 |       chrome.exe        |  Running   |   4    |
+|16368|       chrome.exe        |  Running   |   3    |
+|16252|       chrome.exe        |  Running   |   3    |
+|17124|       chrome.exe        |  Running   |   1    |
+|17236|       chrome.exe        |  Running   |   1    |
+|12624|       chrome.exe        |  Running   |   1    |
+|16664|   AWCC.SCSubAgent.exe   |  Unknown   |   0    |
+|7184 |AWGameLibrary.SCSubAge...|  Unknown   |   0    |
+|7376 |AWPerformance.SCSubAge...|  Unknown   |   0    |
+|17344|     XtuService.exe      |  Unknown   |   0    |
+|17116|   AWCC.UCSubAgent.exe   |  Running   |   3    |
+|1240 |   AlienFXSubAgent.exe   |  Running   |   3    |
+|1500 |AWGameLibrary.UCSubAge...|  Running   |   3    |
+|11072|AWPerformance.UCSubAge...|  Running   |   3    |
+|17756|  OCControl.Service.exe  |  Unknown   |   0    |
+|17904|       svchost.exe       |  Unknown   |   0    |
+|17944|       svchost.exe       |  Unknown   |   0    |
+|14956|       chrome.exe        |  Running   |   1    |
+|18132|       svchost.exe       |  Unknown   |   0    |
+|17824|  FxDisplayService.exe   |  Running   |   3    |
+|17540|     GameEyeApp.exe      |  Running   |   3    |
+|17624|       chrome.exe        |  Running   |   1    |
+|8992 | PhoneExperienceHost.exe |  Running   |   3    |
+|8268 |       svchost.exe       |  Unknown   |   0    |
+|3828 |Dell.CoreServices.Clie...|  Unknown   |   0    |
+|4672 |Dell.TechHub.Instrumen...|  Unknown   |   0    |
+|7968 |Dell.Update.SubAgent.exe |  Unknown   |   0    |
+|18980|       conhost.exe       |  Unknown   |   0    |
+|7120 |Dell.TechHub.DataManag...|  Unknown   |   0    |
+|18592|       conhost.exe       |  Unknown   |   0    |
+|19516|Dell.TechHub.Diagnosti...|  Unknown   |   0    |
+|19524|       conhost.exe       |  Unknown   |   0    |
+|19556|Dell.TechHub.Analytics...|  Unknown   |   0    |
+|19564|       conhost.exe       |  Unknown   |   0    |
+|19632|       conhost.exe       |  Unknown   |   0    |
+|20384|      WmiPrvSE.exe       |  Unknown   |   0    |
+|19652|Dell.TechHub.Instrumen...|  Unknown   |   0    |
+|20588|       svchost.exe       |  Unknown   |   0    |
+|3644 |       svchost.exe       |  Unknown   |   0    |
+|16456|  DDVRulesProcessor.exe  |  Unknown   |   0    |
+|21096|   Dell.D3.WinSvc.exe    |  Unknown   |   0    |
+|17456|DellSupportAssistRemed...|  Unknown   |   0    |
+|20952|    ServiceShell.exe     |  Unknown   |   0    |
+|21740|       svchost.exe       |  Unknown   |   0    |
+|21880|    FusionService.exe    |  Unknown   |   0    |
+|22116|       svchost.exe       |  Unknown   |   0    |
+|22208|     servicehost.exe     |  Unknown   |   0    |
+|16708| SupportAssistAgent.exe  |  Unknown   |   0    |
+|21832|       uihost.exe        |  Running   |   3    |
+|22584|       svchost.exe       |  Running   |   3    |
+|22812|  DDVDataCollector.exe   |  Unknown   |   0    |
+|22892| DDVCollectorSvcApi.exe  |  Unknown   |   0    |
+|22976|    WidgetService.exe    |  Running   |   3    |
+|23352|   msedgewebview2.exe    |  Running   |   3    |
+|23376|   msedgewebview2.exe    |  Running   |   3    |
+|23540|   msedgewebview2.exe    |  Running   |   4    |
+|18888|   msedgewebview2.exe    |  Running   |   3    |
+|22692|   msedgewebview2.exe    |  Running   |   3    |
+|23276|   msedgewebview2.exe    |  Running   |   1    |
+|23720|       svchost.exe       |  Unknown   |   0    |
+|24564|       chrome.exe        |  Running   |   1    |
+|15224| ShellExperienceHost.exe |  Running   |   3    |
+|2668 |        vctip.exe        |  Unknown   |   0    |
+|12336|    RuntimeBroker.exe    |  Running   |   3    |
+|24380|      WmiApSrv.exe       |  Unknown   |   0    |
+|14072|       chrome.exe        |  Running   |   3    |
+|22828|       chrome.exe        |  Running   |   3    |
+|4616 |ApplicationFrameHost.exe |  Running   |   3    |
+|21856|   SystemSettings.exe    |  Running   |   3    |
+|4620 |       svchost.exe       |  Unknown   |   0    |
+|21888|       svchost.exe       |  Running   |   3    |
+|21956|   UserOOBEBroker.exe    |  Running   |   3    |
+|6544 |       svchost.exe       |  Unknown   |   0    |
+|20496|       svchost.exe       |  Running   |   3    |
+|20064|       svchost.exe       |  Unknown   |   0    |
+|16364|       chrome.exe        |  Running   |   1    |
+|23064|       dllhost.exe       |  Running   |   3    |
+|13268|       svchost.exe       |  Unknown   |   0    |
+|3916 |       chrome.exe        |  Running   |   3    |
+|11816|      WhatsApp.exe       |  Running   |   3    |
+|18984|    RuntimeBroker.exe    |  Running   |   3    |
+| 944 |       svchost.exe       |  Unknown   |   0    |
+|3740 |      SDXHelper.exe      |  Running   |   3    |
+|24560| backgroundTaskHost.exe  |  Running   |   3    |
+|18788| backgroundTaskHost.exe  |  Running   |   3    |
+|21696|    RuntimeBroker.exe    |  Running   |   3    |
+|5220 |     smartscreen.exe     |  Running   |   3    |
+|14284|         spm.exe         |  Running   |   3    |
+|14036|       conhost.exe       |  Running   |   3    |
+|17788|     OpenConsole.exe     |  Running   |   3    |
+|18764|   WindowsTerminal.exe   |  Running   |   3    |
+| 940 |    RuntimeBroker.exe    |  Running   |   3    |
++-----+-------------------------+------------+--------+
+
++-----+-------------------------+------------+--------+
+| PID |          Name           |   Status   |Priority|
++-----+-------------------------+------------+--------+
+|  0  |    [System Process]     |  Unknown   |   0    |
+|  4  |         System          |  Unknown   |   0    |
+| 236 |      Secure System      |  Unknown   |   0    |
+| 280 |        Registry         |  Unknown   |   0    |
+| 724 |        smss.exe         |  Unknown   |   0    |
+|1092 |        csrss.exe        |  Unknown   |   0    |
+|1208 |       wininit.exe       |  Unknown   |   0    |
+|1216 |        csrss.exe        |  Unknown   |   0    |
+|1280 |      services.exe       |  Unknown   |   0    |
+|1300 |       LsaIso.exe        |  Unknown   |   0    |
+|1308 |        lsass.exe        |  Unknown   |   0    |
+|1440 |       svchost.exe       |  Unknown   |   0    |
+|1472 |      WUDFHost.exe       |  Unknown   |   0    |
+|1488 |     fontdrvhost.exe     |  Unknown   |   0    |
+|1580 |      winlogon.exe       |  Unknown   |   0    |
+|1652 |       svchost.exe       |  Unknown   |   0    |
+|1668 |     fontdrvhost.exe     |  Unknown   |   0    |
+|1740 |       svchost.exe       |  Unknown   |   0    |
+|1792 |      WUDFHost.exe       |  Unknown   |   0    |
+|1872 |         dwm.exe         |  Unknown   |   0    |
+|1952 |      WUDFHost.exe       |  Unknown   |   0    |
+|1336 |       svchost.exe       |  Unknown   |   0    |
+|1320 |       svchost.exe       |  Unknown   |   0    |
+|1080 |       svchost.exe       |  Unknown   |   0    |
+|2052 |       svchost.exe       |  Unknown   |   0    |
+|2064 |       svchost.exe       |  Unknown   |   0    |
+|2080 |       svchost.exe       |  Unknown   |   0    |
+|2096 |       svchost.exe       |  Unknown   |   0    |
+|2292 |       svchost.exe       |  Unknown   |   0    |
+|2360 |       svchost.exe       |  Unknown   |   0    |
+|2376 |       svchost.exe       |  Unknown   |   0    |
+|2416 |       svchost.exe       |  Unknown   |   0    |
+|2424 |       svchost.exe       |  Unknown   |   0    |
+|2436 |       svchost.exe       |  Unknown   |   0    |
+|2616 |   IntelCpHDCPSvc.exe    |  Unknown   |   0    |
+|2636 |       svchost.exe       |  Unknown   |   0    |
+|2652 |       svchost.exe       |  Unknown   |   0    |
+|2660 |       svchost.exe       |  Unknown   |   0    |
+|2732 |       svchost.exe       |  Unknown   |   0    |
+|2788 |       svchost.exe       |  Unknown   |   0    |
+|2804 |       svchost.exe       |  Unknown   |   0    |
+|2984 |       svchost.exe       |  Unknown   |   0    |
+|3192 |       svchost.exe       |  Unknown   |   0    |
+|3240 |       svchost.exe       |  Unknown   |   0    |
+|3516 |       svchost.exe       |  Unknown   |   0    |
+|3556 | NVDisplay.Container.exe |  Unknown   |   0    |
+|3592 |       svchost.exe       |  Unknown   |   0    |
+|3628 |       svchost.exe       |  Unknown   |   0    |
+|3776 |       svchost.exe       |  Unknown   |   0    |
+|3784 |       svchost.exe       |  Unknown   |   0    |
+|3792 |       svchost.exe       |  Unknown   |   0    |
+|3836 | NVDisplay.Container.exe |  Unknown   |   0    |
+|3944 |   Memory Compression    |  Unknown   |   0    |
+|3964 |       svchost.exe       |  Unknown   |   0    |
+|4044 |       svchost.exe       |  Unknown   |   0    |
+|4052 |       svchost.exe       |  Unknown   |   0    |
+|1552 |       svchost.exe       |  Unknown   |   0    |
+|4200 |       svchost.exe       |  Unknown   |   0    |
+|4340 |       svchost.exe       |  Unknown   |   0    |
+|4464 |       svchost.exe       |  Unknown   |   0    |
+|4520 |       svchost.exe       |  Unknown   |   0    |
+|4584 |       svchost.exe       |  Unknown   |   0    |
+|4640 |       svchost.exe       |  Unknown   |   0    |
+|4764 |       spoolsv.exe       |  Unknown   |   0    |
+|4812 |       svchost.exe       |  Unknown   |   0    |
+|4948 |       svchost.exe       |  Unknown   |   0    |
+|4992 |       svchost.exe       |  Unknown   |   0    |
+|4776 |       DAX3API.exe       |  Unknown   |   0    |
+|5028 |    Dell.TechHub.exe     |  Unknown   |   0    |
+|4864 |       svchost.exe       |  Unknown   |   0    |
+|5124 |       svchost.exe       |  Unknown   |   0    |
+|5132 |      warp-svc.exe       |  Unknown   |   0    |
+|5140 |  IntelAudioService.exe  |  Unknown   |   0    |
+|5152 |       ipf_uf.exe        |  Unknown   |   0    |
+|5160 |       svchost.exe       |  Unknown   |   0    |
+|5168 |       ipfsvc.exe        |  Unknown   |   0    |
+|5184 |     jhi_service.exe     |  Unknown   |   0    |
+|5192 |OneApp.IGCC.WinService...|  Unknown   |   0    |
+|5200 | IgoAudioService_x64.exe |  Unknown   |   0    |
+|5212 |       svchost.exe       |  Unknown   |   0    |
+|5276 |  OfficeClickToRun.exe   |  Unknown   |   0    |
+|5284 |     nvcontainer.exe     |  Unknown   |   0    |
+|5328 |     mc-fw-host.exe      |  Unknown   |   0    |
+|5304 |       svchost.exe       |  Unknown   |   0    |
+|5348 |    RstMwService.exe     |  Unknown   |   0    |
+|5376 |  RtkAudUService64.exe   |  Unknown   |   0    |
+|5440 |       svchost.exe       |  Unknown   |   0    |
+|5452 |WMIRegistrationService...|  Unknown   |   0    |
+|5468 |       svchost.exe       |  Unknown   |   0    |
+|6076 |       svchost.exe       |  Unknown   |   0    |
+|6388 |       svchost.exe       |  Unknown   |   0    |
+|6232 |       svchost.exe       |  Unknown   |   0    |
+|7176 |     iGoSwServer.exe     |  Unknown   |   0    |
+|7236 |       NgcIso.exe        |  Unknown   |   0    |
+|8048 |      WmiPrvSE.exe       |  Unknown   |   0    |
+|7904 |       wlanext.exe       |  Unknown   |   0    |
+|8412 |   gamingservices.exe    |  Unknown   |   0    |
+|8424 |  gamingservicesnet.exe  |  Unknown   |   0    |
+|8528 |       svchost.exe       |  Unknown   |   0    |
+|8748 |   AggregatorHost.exe    |  Unknown   |   0    |
+|5116 |       svchost.exe       |  Unknown   |   0    |
+|9016 |       svchost.exe       |  Unknown   |   0    |
+|8848 |       svchost.exe       |  Unknown   |   0    |
+|8728 |       svchost.exe       |  Unknown   |   0    |
+|9272 |       svchost.exe       |  Unknown   |   0    |
+|10008|  RtkAudUService64.exe   |  Unknown   |   0    |
+|10080|     nvcontainer.exe     |  Unknown   |   0    |
+|10088|      WmiPrvSE.exe       |  Unknown   |   0    |
+|9580 |     ipf_helper.exe      |  Running   |   3    |
+|9736 |     nvcontainer.exe     |  Running   |   3    |
+|9320 |       sihost.exe        |  Running   |   3    |
+|9372 |     nvcontainer.exe     |  Running   |   3    |
+|3116 |     mc-fw-host.exe      |  Unknown   |   0    |
+|7092 |       svchost.exe       |  Running   |   3    |
+|6848 |       svchost.exe       |  Running   |   3    |
+|9848 |       DAX3API.exe       |  Unknown   |   0    |
+|9500 |       svchost.exe       |  Running   |   3    |
+|10320|       svchost.exe       |  Running   |   3    |
+|10484|     iGoSwServer.exe     |  Running   |   2    |
+|10604|       svchost.exe       |  Unknown   |   0    |
+|10612|       svchost.exe       |  Unknown   |   0    |
+|10908|      taskhostw.exe      |  Running   |   3    |
+|11096|      explorer.exe       |  Running   |   3    |
+|11104|      ShellHost.exe      |  Running   |   3    |
+|11288|       svchost.exe       |  Unknown   |   0    |
+|11368|    SearchIndexer.exe    |  Unknown   |   0    |
+|11676|       svchost.exe       |  Running   |   3    |
+|12096|StartMenuExperienceHos...|  Running   |   3    |
+|12104|     SearchHost.exe      |  Running   |   3    |
+|12212|       Widgets.exe       |  Running   |   3    |
+|11604|    RuntimeBroker.exe    |  Running   |   3    |
+|11620|       svchost.exe       |  Running   |   3    |
+|10592|    RuntimeBroker.exe    |  Running   |   3    |
+|12432|    nvsphelper64.exe     |  Unknown   |   0    |
+|12496|   NVIDIA Overlay.exe    |  Running   |   3    |
+|13004|       dllhost.exe       |  Running   |   3    |
+|13348|       svchost.exe       |  Unknown   |   0    |
+|14192|   NVIDIA Overlay.exe    |  Running   |   4    |
+|14880|       ctfmon.exe        |  Unknown   |   0    |
+|15196|   NVIDIA Overlay.exe    |  Running   |   3    |
+|15208|   NVIDIA Overlay.exe    |  Running   |   3    |
+|15264|   NVIDIA Overlay.exe    |  Running   |   3    |
+|15380|SecurityHealthSystray.exe|  Running   |   3    |
+|15400|SecurityHealthService.exe|  Unknown   |   0    |
+|15552|  RtkAudUService64.exe   |  Running   |   3    |
+|15760|       jusched.exe       |  Running   |   3    |
+|15784|       svchost.exe       |  Unknown   |   0    |
+|6008 |    TextInputHost.exe    |  Running   |   5    |
+|16336|       chrome.exe        |  Running   |   3    |
+|16372|       chrome.exe        |  Running   |   3    |
+|4480 |       chrome.exe        |  Running   |   4    |
+|16368|       chrome.exe        |  Running   |   3    |
+|16252|       chrome.exe        |  Running   |   3    |
+|17124|       chrome.exe        |  Running   |   1    |
+|17236|       chrome.exe        |  Running   |   1    |
+|12624|       chrome.exe        |  Running   |   1    |
+|16664|   AWCC.SCSubAgent.exe   |  Unknown   |   0    |
+|7184 |AWGameLibrary.SCSubAge...|  Unknown   |   0    |
+|7376 |AWPerformance.SCSubAge...|  Unknown   |   0    |
+|17344|     XtuService.exe      |  Unknown   |   0    |
+|17116|   AWCC.UCSubAgent.exe   |  Running   |   3    |
+|1240 |   AlienFXSubAgent.exe   |  Running   |   3    |
+|1500 |AWGameLibrary.UCSubAge...|  Running   |   3    |
+|11072|AWPerformance.UCSubAge...|  Running   |   3    |
+|17756|  OCControl.Service.exe  |  Unknown   |   0    |
+|17904|       svchost.exe       |  Unknown   |   0    |
+|17944|       svchost.exe       |  Unknown   |   0    |
+|14956|       chrome.exe        |  Running   |   1    |
+|17824|  FxDisplayService.exe   |  Running   |   3    |
+|17540|     GameEyeApp.exe      |  Running   |   3    |
+|17624|       chrome.exe        |  Running   |   1    |
+|8992 | PhoneExperienceHost.exe |  Running   |   3    |
+|8268 |       svchost.exe       |  Unknown   |   0    |
+|3828 |Dell.CoreServices.Clie...|  Unknown   |   0    |
+|4672 |Dell.TechHub.Instrumen...|  Unknown   |   0    |
+|7968 |Dell.Update.SubAgent.exe |  Unknown   |   0    |
+|18980|       conhost.exe       |  Unknown   |   0    |
+|7120 |Dell.TechHub.DataManag...|  Unknown   |   0    |
+|18592|       conhost.exe       |  Unknown   |   0    |
+|19516|Dell.TechHub.Diagnosti...|  Unknown   |   0    |
+|19524|       conhost.exe       |  Unknown   |   0    |
+|19556|Dell.TechHub.Analytics...|  Unknown   |   0    |
+|19564|       conhost.exe       |  Unknown   |   0    |
+|19632|       conhost.exe       |  Unknown   |   0    |
+|19652|Dell.TechHub.Instrumen...|  Unknown   |   0    |
+|20588|       svchost.exe       |  Unknown   |   0    |
+|3644 |       svchost.exe       |  Unknown   |   0    |
+|16456|  DDVRulesProcessor.exe  |  Unknown   |   0    |
+|21096|   Dell.D3.WinSvc.exe    |  Unknown   |   0    |
+|17456|DellSupportAssistRemed...|  Unknown   |   0    |
+|20952|    ServiceShell.exe     |  Unknown   |   0    |
+|21740|       svchost.exe       |  Unknown   |   0    |
+|21880|    FusionService.exe    |  Unknown   |   0    |
+|22116|       svchost.exe       |  Unknown   |   0    |
+|22208|     servicehost.exe     |  Unknown   |   0    |
+|16708| SupportAssistAgent.exe  |  Unknown   |   0    |
+|21832|       uihost.exe        |  Running   |   3    |
+|22584|       svchost.exe       |  Running   |   3    |
+|22812|  DDVDataCollector.exe   |  Unknown   |   0    |
+|22892| DDVCollectorSvcApi.exe  |  Unknown   |   0    |
+|22976|    WidgetService.exe    |  Running   |   3    |
+|23352|   msedgewebview2.exe    |  Running   |   3    |
+|23376|   msedgewebview2.exe    |  Running   |   3    |
+|23540|   msedgewebview2.exe    |  Running   |   4    |
+|18888|   msedgewebview2.exe    |  Running   |   3    |
+|22692|   msedgewebview2.exe    |  Running   |   3    |
+|23276|   msedgewebview2.exe    |  Running   |   1    |
+|23720|       svchost.exe       |  Unknown   |   0    |
+|24564|       chrome.exe        |  Running   |   1    |
+|15224| ShellExperienceHost.exe |  Running   |   3    |
+|12336|    RuntimeBroker.exe    |  Running   |   3    |
+|24380|      WmiApSrv.exe       |  Unknown   |   0    |
+|14072|       chrome.exe        |  Running   |   3    |
+|22828|       chrome.exe        |  Running   |   3    |
+|4616 |ApplicationFrameHost.exe |  Running   |   3    |
+|21856|   SystemSettings.exe    |  Running   |   3    |
+|4620 |       svchost.exe       |  Unknown   |   0    |
+|21888|       svchost.exe       |  Running   |   3    |
+|21956|   UserOOBEBroker.exe    |  Running   |   3    |
+|6544 |       svchost.exe       |  Unknown   |   0    |
+|20496|       svchost.exe       |  Running   |   3    |
+|16364|       chrome.exe        |  Running   |   1    |
+|23064|       dllhost.exe       |  Running   |   3    |
+|11816|      WhatsApp.exe       |  Running   |   3    |
+|18984|    RuntimeBroker.exe    |  Running   |   3    |
+|3740 |      SDXHelper.exe      |  Running   |   3    |
+|14332|       chrome.exe        |  Running   |   1    |
+|5268 |       chrome.exe        |  Running   |   3    |
+|12116|        Code.exe         |  Running   |   3    |
+|11408|        Code.exe         |  Running   |   3    |
+|14124|        Code.exe         |  Running   |   4    |
+|4456 |        Code.exe         |  Running   |   3    |
+|11728|        Code.exe         |  Running   |   3    |
+|23384|        Code.exe         |  Running   |   3    |
+|1660 |        Code.exe         |  Running   |   3    |
+|20392|        Code.exe         |  Running   |   3    |
+|6100 |        Code.exe         |  Running   |   3    |
+|9332 |      cpptools.exe       |  Running   |   3    |
+|6308 |       conhost.exe       |  Running   |   3    |
+|3884 |      cpptools.exe       |  Running   |   3    |
+|13120|       audiodg.exe       |  Unknown   |   0    |
+|4412 |    RuntimeBroker.exe    |  Running   |   3    |
+|10520|       svchost.exe       |  Unknown   |   0    |
+|11432|       svchost.exe       |  Unknown   |   0    |
+|4940 |     smartscreen.exe     |  Running   |   3    |
+|20332|       svchost.exe       |  Unknown   |   0    |
+|13560|         spm.exe         |  Running   |   3    |
+|19972|       conhost.exe       |  Running   |   3    |
+|24552|     OpenConsole.exe     |  Running   |   3    |
+|5044 |   WindowsTerminal.exe   |  Running   |   3    |
++-----+-------------------------+------------+--------+
+
++-----+-------------------------+------------+--------+
+| PID |          Name           |   Status   |Priority|
++-----+-------------------------+------------+--------+
+|  0  |    [System Process]     |  Unknown   |   0    |
+|  4  |         System          |  Unknown   |   0    |
+| 236 |      Secure System      |  Unknown   |   0    |
+| 280 |        Registry         |  Unknown   |   0    |
+| 724 |        smss.exe         |  Unknown   |   0    |
+|1092 |        csrss.exe        |  Unknown   |   0    |
+|1208 |       wininit.exe       |  Unknown   |   0    |
+|1216 |        csrss.exe        |  Unknown   |   0    |
+|1280 |      services.exe       |  Unknown   |   0    |
+|1300 |       LsaIso.exe        |  Unknown   |   0    |
+|1308 |        lsass.exe        |  Unknown   |   0    |
+|1440 |       svchost.exe       |  Unknown   |   0    |
+|1472 |      WUDFHost.exe       |  Unknown   |   0    |
+|1488 |     fontdrvhost.exe     |  Unknown   |   0    |
+|1580 |      winlogon.exe       |  Unknown   |   0    |
+|1652 |       svchost.exe       |  Unknown   |   0    |
+|1668 |     fontdrvhost.exe     |  Unknown   |   0    |
+|1740 |       svchost.exe       |  Unknown   |   0    |
+|1792 |      WUDFHost.exe       |  Unknown   |   0    |
+|1872 |         dwm.exe         |  Unknown   |   0    |
+|1952 |      WUDFHost.exe       |  Unknown   |   0    |
+|1336 |       svchost.exe       |  Unknown   |   0    |
+|1320 |       svchost.exe       |  Unknown   |   0    |
+|1080 |       svchost.exe       |  Unknown   |   0    |
+|2052 |       svchost.exe       |  Unknown   |   0    |
+|2064 |       svchost.exe       |  Unknown   |   0    |
+|2080 |       svchost.exe       |  Unknown   |   0    |
+|2096 |       svchost.exe       |  Unknown   |   0    |
+|2292 |       svchost.exe       |  Unknown   |   0    |
+|2360 |       svchost.exe       |  Unknown   |   0    |
+|2376 |       svchost.exe       |  Unknown   |   0    |
+|2416 |       svchost.exe       |  Unknown   |   0    |
+|2424 |       svchost.exe       |  Unknown   |   0    |
+|2436 |       svchost.exe       |  Unknown   |   0    |
+|2616 |   IntelCpHDCPSvc.exe    |  Unknown   |   0    |
+|2636 |       svchost.exe       |  Unknown   |   0    |
+|2652 |       svchost.exe       |  Unknown   |   0    |
+|2660 |       svchost.exe       |  Unknown   |   0    |
+|2732 |       svchost.exe       |  Unknown   |   0    |
+|2788 |       svchost.exe       |  Unknown   |   0    |
+|2804 |       svchost.exe       |  Unknown   |   0    |
+|2984 |       svchost.exe       |  Unknown   |   0    |
+|3192 |       svchost.exe       |  Unknown   |   0    |
+|3240 |       svchost.exe       |  Unknown   |   0    |
+|3516 |       svchost.exe       |  Unknown   |   0    |
+|3556 | NVDisplay.Container.exe |  Unknown   |   0    |
+|3592 |       svchost.exe       |  Unknown   |   0    |
+|3628 |       svchost.exe       |  Unknown   |   0    |
+|3776 |       svchost.exe       |  Unknown   |   0    |
+|3784 |       svchost.exe       |  Unknown   |   0    |
+|3792 |       svchost.exe       |  Unknown   |   0    |
+|3836 | NVDisplay.Container.exe |  Unknown   |   0    |
+|3944 |   Memory Compression    |  Unknown   |   0    |
+|3964 |       svchost.exe       |  Unknown   |   0    |
+|4044 |       svchost.exe       |  Unknown   |   0    |
+|4052 |       svchost.exe       |  Unknown   |   0    |
+|1552 |       svchost.exe       |  Unknown   |   0    |
+|4200 |       svchost.exe       |  Unknown   |   0    |
+|4340 |       svchost.exe       |  Unknown   |   0    |
+|4464 |       svchost.exe       |  Unknown   |   0    |
+|4520 |       svchost.exe       |  Unknown   |   0    |
+|4584 |       svchost.exe       |  Unknown   |   0    |
+|4640 |       svchost.exe       |  Unknown   |   0    |
+|4764 |       spoolsv.exe       |  Unknown   |   0    |
+|4812 |       svchost.exe       |  Unknown   |   0    |
+|4948 |       svchost.exe       |  Unknown   |   0    |
+|4992 |       svchost.exe       |  Unknown   |   0    |
+|4776 |       DAX3API.exe       |  Unknown   |   0    |
+|5028 |    Dell.TechHub.exe     |  Unknown   |   0    |
+|4864 |       svchost.exe       |  Unknown   |   0    |
+|5124 |       svchost.exe       |  Unknown   |   0    |
+|5132 |      warp-svc.exe       |  Unknown   |   0    |
+|5140 |  IntelAudioService.exe  |  Unknown   |   0    |
+|5152 |       ipf_uf.exe        |  Unknown   |   0    |
+|5160 |       svchost.exe       |  Unknown   |   0    |
+|5168 |       ipfsvc.exe        |  Unknown   |   0    |
+|5184 |     jhi_service.exe     |  Unknown   |   0    |
+|5192 |OneApp.IGCC.WinService...|  Unknown   |   0    |
+|5200 | IgoAudioService_x64.exe |  Unknown   |   0    |
+|5212 |       svchost.exe       |  Unknown   |   0    |
+|5276 |  OfficeClickToRun.exe   |  Unknown   |   0    |
+|5284 |     nvcontainer.exe     |  Unknown   |   0    |
+|5328 |     mc-fw-host.exe      |  Unknown   |   0    |
+|5304 |       svchost.exe       |  Unknown   |   0    |
+|5348 |    RstMwService.exe     |  Unknown   |   0    |
+|5376 |  RtkAudUService64.exe   |  Unknown   |   0    |
+|5440 |       svchost.exe       |  Unknown   |   0    |
+|5452 |WMIRegistrationService...|  Unknown   |   0    |
+|5468 |       svchost.exe       |  Unknown   |   0    |
+|6076 |       svchost.exe       |  Unknown   |   0    |
+|6388 |       svchost.exe       |  Unknown   |   0    |
+|6232 |       svchost.exe       |  Unknown   |   0    |
+|7176 |     iGoSwServer.exe     |  Unknown   |   0    |
+|7236 |       NgcIso.exe        |  Unknown   |   0    |
+|8048 |      WmiPrvSE.exe       |  Unknown   |   0    |
+|7904 |       wlanext.exe       |  Unknown   |   0    |
+|8412 |   gamingservices.exe    |  Unknown   |   0    |
+|8424 |  gamingservicesnet.exe  |  Unknown   |   0    |
+|8528 |       svchost.exe       |  Unknown   |   0    |
+|8748 |   AggregatorHost.exe    |  Unknown   |   0    |
+|5116 |       svchost.exe       |  Unknown   |   0    |
+|9016 |       svchost.exe       |  Unknown   |   0    |
+|8848 |       svchost.exe       |  Unknown   |   0    |
+|8728 |       svchost.exe       |  Unknown   |   0    |
+|9272 |       svchost.exe       |  Unknown   |   0    |
+|10008|  RtkAudUService64.exe   |  Unknown   |   0    |
+|10080|     nvcontainer.exe     |  Unknown   |   0    |
+|10088|      WmiPrvSE.exe       |  Unknown   |   0    |
+|9580 |     ipf_helper.exe      |  Running   |   3    |
+|9736 |     nvcontainer.exe     |  Running   |   3    |
+|9320 |       sihost.exe        |  Running   |   3    |
+|9372 |     nvcontainer.exe     |  Running   |   3    |
+|3116 |     mc-fw-host.exe      |  Unknown   |   0    |
+|7092 |       svchost.exe       |  Running   |   3    |
+|6848 |       svchost.exe       |  Running   |   3    |
+|9848 |       DAX3API.exe       |  Unknown   |   0    |
+|9500 |       svchost.exe       |  Running   |   3    |
+|10320|       svchost.exe       |  Running   |   3    |
+|10484|     iGoSwServer.exe     |  Running   |   2    |
+|10604|       svchost.exe       |  Unknown   |   0    |
+|10612|       svchost.exe       |  Unknown   |   0    |
+|10908|      taskhostw.exe      |  Running   |   3    |
+|11096|      explorer.exe       |  Running   |   3    |
+|11104|      ShellHost.exe      |  Running   |   3    |
+|11288|       svchost.exe       |  Unknown   |   0    |
+|11368|    SearchIndexer.exe    |  Unknown   |   0    |
+|11676|       svchost.exe       |  Running   |   3    |
+|12096|StartMenuExperienceHos...|  Running   |   3    |
+|12104|     SearchHost.exe      |  Running   |   3    |
+|12212|       Widgets.exe       |  Running   |   3    |
+|11604|    RuntimeBroker.exe    |  Running   |   3    |
+|11620|       svchost.exe       |  Running   |   3    |
+|10592|    RuntimeBroker.exe    |  Running   |   3    |
+|12432|    nvsphelper64.exe     |  Unknown   |   0    |
+|12496|   NVIDIA Overlay.exe    |  Running   |   3    |
+|13004|       dllhost.exe       |  Running   |   3    |
+|13348|       svchost.exe       |  Unknown   |   0    |
+|14192|   NVIDIA Overlay.exe    |  Running   |   4    |
+|14880|       ctfmon.exe        |  Unknown   |   0    |
+|15196|   NVIDIA Overlay.exe    |  Running   |   3    |
+|15208|   NVIDIA Overlay.exe    |  Running   |   3    |
+|15264|   NVIDIA Overlay.exe    |  Running   |   3    |
+|15380|SecurityHealthSystray.exe|  Running   |   3    |
+|15400|SecurityHealthService.exe|  Unknown   |   0    |
+|15552|  RtkAudUService64.exe   |  Running   |   3    |
+|15760|       jusched.exe       |  Running   |   3    |
+|15784|       svchost.exe       |  Unknown   |   0    |
+|6008 |    TextInputHost.exe    |  Running   |   5    |
+|16336|       chrome.exe        |  Running   |   3    |
+|16372|       chrome.exe        |  Running   |   3    |
+|4480 |       chrome.exe        |  Running   |   4    |
+|16368|       chrome.exe        |  Running   |   3    |
+|16252|       chrome.exe        |  Running   |   3    |
+|17124|       chrome.exe        |  Running   |   1    |
+|17236|       chrome.exe        |  Running   |   1    |
+|12624|       chrome.exe        |  Running   |   1    |
+|16664|   AWCC.SCSubAgent.exe   |  Unknown   |   0    |
+|7184 |AWGameLibrary.SCSubAge...|  Unknown   |   0    |
+|7376 |AWPerformance.SCSubAge...|  Unknown   |   0    |
+|17344|     XtuService.exe      |  Unknown   |   0    |
+|17116|   AWCC.UCSubAgent.exe   |  Running   |   3    |
+|1240 |   AlienFXSubAgent.exe   |  Running   |   3    |
+|1500 |AWGameLibrary.UCSubAge...|  Running   |   3    |
+|11072|AWPerformance.UCSubAge...|  Running   |   3    |
+|17756|  OCControl.Service.exe  |  Unknown   |   0    |
+|17904|       svchost.exe       |  Unknown   |   0    |
+|17944|       svchost.exe       |  Unknown   |   0    |
+|14956|       chrome.exe        |  Running   |   1    |
+|17824|  FxDisplayService.exe   |  Running   |   3    |
+|17540|     GameEyeApp.exe      |  Running   |   3    |
+|17624|       chrome.exe        |  Running   |   1    |
+|8992 | PhoneExperienceHost.exe |  Running   |   3    |
+|8268 |       svchost.exe       |  Unknown   |   0    |
+|3828 |Dell.CoreServices.Clie...|  Unknown   |   0    |
+|4672 |Dell.TechHub.Instrumen...|  Unknown   |   0    |
+|7968 |Dell.Update.SubAgent.exe |  Unknown   |   0    |
+|18980|       conhost.exe       |  Unknown   |   0    |
+|7120 |Dell.TechHub.DataManag...|  Unknown   |   0    |
+|18592|       conhost.exe       |  Unknown   |   0    |
+|19516|Dell.TechHub.Diagnosti...|  Unknown   |   0    |
+|19524|       conhost.exe       |  Unknown   |   0    |
+|19556|Dell.TechHub.Analytics...|  Unknown   |   0    |
+|19564|       conhost.exe       |  Unknown   |   0    |
+|19632|       conhost.exe       |  Unknown   |   0    |
+|19652|Dell.TechHub.Instrumen...|  Unknown   |   0    |
+|20588|       svchost.exe       |  Unknown   |   0    |
+|3644 |       svchost.exe       |  Unknown   |   0    |
+|16456|  DDVRulesProcessor.exe  |  Unknown   |   0    |
+|21096|   Dell.D3.WinSvc.exe    |  Unknown   |   0    |
+|17456|DellSupportAssistRemed...|  Unknown   |   0    |
+|20952|    ServiceShell.exe     |  Unknown   |   0    |
+|21740|       svchost.exe       |  Unknown   |   0    |
+|21880|    FusionService.exe    |  Unknown   |   0    |
+|22116|       svchost.exe       |  Unknown   |   0    |
+|22208|     servicehost.exe     |  Unknown   |   0    |
+|16708| SupportAssistAgent.exe  |  Unknown   |   0    |
+|21832|       uihost.exe        |  Running   |   3    |
+|22584|       svchost.exe       |  Running   |   3    |
+|22812|  DDVDataCollector.exe   |  Unknown   |   0    |
+|22892| DDVCollectorSvcApi.exe  |  Unknown   |   0    |
+|22976|    WidgetService.exe    |  Running   |   3    |
+|23352|   msedgewebview2.exe    |  Running   |   3    |
+|23376|   msedgewebview2.exe    |  Running   |   3    |
+|23540|   msedgewebview2.exe    |  Running   |   4    |
+|18888|   msedgewebview2.exe    |  Running   |   3    |
+|22692|   msedgewebview2.exe    |  Running   |   3    |
+|23276|   msedgewebview2.exe    |  Running   |   1    |
+|23720|       svchost.exe       |  Unknown   |   0    |
+|24564|       chrome.exe        |  Running   |   1    |
+|15224| ShellExperienceHost.exe |  Running   |   3    |
+|12336|    RuntimeBroker.exe    |  Running   |   3    |
+|24380|      WmiApSrv.exe       |  Unknown   |   0    |
+|14072|       chrome.exe        |  Running   |   3    |
+|22828|       chrome.exe        |  Running   |   3    |
+|4616 |ApplicationFrameHost.exe |  Running   |   3    |
+|21856|   SystemSettings.exe    |  Running   |   3    |
+|4620 |       svchost.exe       |  Unknown   |   0    |
+|21888|       svchost.exe       |  Running   |   3    |
+|21956|   UserOOBEBroker.exe    |  Running   |   3    |
+|6544 |       svchost.exe       |  Unknown   |   0    |
+|20496|       svchost.exe       |  Running   |   3    |
+|16364|       chrome.exe        |  Running   |   1    |
+|23064|       dllhost.exe       |  Running   |   3    |
+|11816|      WhatsApp.exe       |  Running   |   5    |
+|18984|    RuntimeBroker.exe    |  Running   |   3    |
+|3740 |      SDXHelper.exe      |  Running   |   3    |
+|14332|       chrome.exe        |  Running   |   1    |
+|5268 |       chrome.exe        |  Running   |   3    |
+|12116|        Code.exe         |  Running   |   3    |
+|11408|        Code.exe         |  Running   |   3    |
+|14124|        Code.exe         |  Running   |   4    |
+|4456 |        Code.exe         |  Running   |   3    |
+|11728|        Code.exe         |  Running   |   3    |
+|23384|        Code.exe         |  Running   |   3    |
+|1660 |        Code.exe         |  Running   |   3    |
+|20392|        Code.exe         |  Running   |   3    |
+|6100 |        Code.exe         |  Running   |   3    |
+|9332 |      cpptools.exe       |  Running   |   3    |
+|6308 |       conhost.exe       |  Running   |   3    |
+|3884 |      cpptools.exe       |  Running   |   3    |
+|13120|       audiodg.exe       |  Unknown   |   0    |
+|4412 |    RuntimeBroker.exe    |  Running   |   3    |
+|10520|       svchost.exe       |  Unknown   |   0    |
+|11432|       svchost.exe       |  Unknown   |   0    |
+|4940 |     smartscreen.exe     |  Running   |   3    |
+|20332|       svchost.exe       |  Unknown   |   0    |
+|13560|         spm.exe         |  Running   |   3    |
+|19972|       conhost.exe       |  Running   |   3    |
+|24552|     OpenConsole.exe     |  Running   |   3    |
+|5044 |   WindowsTerminal.exe   |  Running   |   3    |
++-----+-------------------------+------------+--------+
+
++-----+-------------------------+------------+--------+
+| PID |          Name           |   Status   |Priority|
++-----+-------------------------+------------+--------+
+|  0  |    [System Process]     |  Unknown   |   0    |
+|  4  |         System          |  Unknown   |   0    |
+| 236 |      Secure System      |  Unknown   |   0    |
+| 280 |        Registry         |  Unknown   |   0    |
+| 724 |        smss.exe         |  Unknown   |   0    |
+|1092 |        csrss.exe        |  Unknown   |   0    |
+|1208 |       wininit.exe       |  Unknown   |   0    |
+|1216 |        csrss.exe        |  Unknown   |   0    |
+|1280 |      services.exe       |  Unknown   |   0    |
+|1300 |       LsaIso.exe        |  Unknown   |   0    |
+|1308 |        lsass.exe        |  Unknown   |   0    |
+|1440 |       svchost.exe       |  Unknown   |   0    |
+|1472 |      WUDFHost.exe       |  Unknown   |   0    |
+|1488 |     fontdrvhost.exe     |  Unknown   |   0    |
+|1580 |      winlogon.exe       |  Unknown   |   0    |
+|1652 |       svchost.exe       |  Unknown   |   0    |
+|1668 |     fontdrvhost.exe     |  Unknown   |   0    |
+|1740 |       svchost.exe       |  Unknown   |   0    |
+|1792 |      WUDFHost.exe       |  Unknown   |   0    |
+|1872 |         dwm.exe         |  Unknown   |   0    |
+|1952 |      WUDFHost.exe       |  Unknown   |   0    |
+|1336 |       svchost.exe       |  Unknown   |   0    |
+|1320 |       svchost.exe       |  Unknown   |   0    |
+|1080 |       svchost.exe       |  Unknown   |   0    |
+|2052 |       svchost.exe       |  Unknown   |   0    |
+|2064 |       svchost.exe       |  Unknown   |   0    |
+|2080 |       svchost.exe       |  Unknown   |   0    |
+|2096 |       svchost.exe       |  Unknown   |   0    |
+|2292 |       svchost.exe       |  Unknown   |   0    |
+|2360 |       svchost.exe       |  Unknown   |   0    |
+|2376 |       svchost.exe       |  Unknown   |   0    |
+|2416 |       svchost.exe       |  Unknown   |   0    |
+|2424 |       svchost.exe       |  Unknown   |   0    |
+|2436 |       svchost.exe       |  Unknown   |   0    |
+|2616 |   IntelCpHDCPSvc.exe    |  Unknown   |   0    |
+|2636 |       svchost.exe       |  Unknown   |   0    |
+|2652 |       svchost.exe       |  Unknown   |   0    |
+|2660 |       svchost.exe       |  Unknown   |   0    |
+|2732 |       svchost.exe       |  Unknown   |   0    |
+|2788 |       svchost.exe       |  Unknown   |   0    |
+|2804 |       svchost.exe       |  Unknown   |   0    |
+|2984 |       svchost.exe       |  Unknown   |   0    |
+|3192 |       svchost.exe       |  Unknown   |   0    |
+|3240 |       svchost.exe       |  Unknown   |   0    |
+|3516 |       svchost.exe       |  Unknown   |   0    |
+|3556 | NVDisplay.Container.exe |  Unknown   |   0    |
+|3592 |       svchost.exe       |  Unknown   |   0    |
+|3628 |       svchost.exe       |  Unknown   |   0    |
+|3776 |       svchost.exe       |  Unknown   |   0    |
+|3784 |       svchost.exe       |  Unknown   |   0    |
+|3792 |       svchost.exe       |  Unknown   |   0    |
+|3836 | NVDisplay.Container.exe |  Unknown   |   0    |
+|3944 |   Memory Compression    |  Unknown   |   0    |
+|3964 |       svchost.exe       |  Unknown   |   0    |
+|4044 |       svchost.exe       |  Unknown   |   0    |
+|4052 |       svchost.exe       |  Unknown   |   0    |
+|1552 |       svchost.exe       |  Unknown   |   0    |
+|4200 |       svchost.exe       |  Unknown   |   0    |
+|4340 |       svchost.exe       |  Unknown   |   0    |
+|4464 |       svchost.exe       |  Unknown   |   0    |
+|4520 |       svchost.exe       |  Unknown   |   0    |
+|4584 |       svchost.exe       |  Unknown   |   0    |
+|4640 |       svchost.exe       |  Unknown   |   0    |
+|4764 |       spoolsv.exe       |  Unknown   |   0    |
+|4812 |       svchost.exe       |  Unknown   |   0    |
+|4948 |       svchost.exe       |  Unknown   |   0    |
+|4992 |       svchost.exe       |  Unknown   |   0    |
+|4776 |       DAX3API.exe       |  Unknown   |   0    |
+|5028 |    Dell.TechHub.exe     |  Unknown   |   0    |
+|4864 |       svchost.exe       |  Unknown   |   0    |
+|5124 |       svchost.exe       |  Unknown   |   0    |
+|5132 |      warp-svc.exe       |  Unknown   |   0    |
+|5140 |  IntelAudioService.exe  |  Unknown   |   0    |
+|5152 |       ipf_uf.exe        |  Unknown   |   0    |
+|5160 |       svchost.exe       |  Unknown   |   0    |
+|5168 |       ipfsvc.exe        |  Unknown   |   0    |
+|5184 |     jhi_service.exe     |  Unknown   |   0    |
+|5192 |OneApp.IGCC.WinService...|  Unknown   |   0    |
+|5200 | IgoAudioService_x64.exe |  Unknown   |   0    |
+|5212 |       svchost.exe       |  Unknown   |   0    |
+|5276 |  OfficeClickToRun.exe   |  Unknown   |   0    |
+|5284 |     nvcontainer.exe     |  Unknown   |   0    |
+|5328 |     mc-fw-host.exe      |  Unknown   |   0    |
+|5304 |       svchost.exe       |  Unknown   |   0    |
+|5348 |    RstMwService.exe     |  Unknown   |   0    |
+|5376 |  RtkAudUService64.exe   |  Unknown   |   0    |
+|5440 |       svchost.exe       |  Unknown   |   0    |
+|5452 |WMIRegistrationService...|  Unknown   |   0    |
+|5468 |       svchost.exe       |  Unknown   |   0    |
+|6076 |       svchost.exe       |  Unknown   |   0    |
+|6388 |       svchost.exe       |  Unknown   |   0    |
+|6232 |       svchost.exe       |  Unknown   |   0    |
+|7176 |     iGoSwServer.exe     |  Unknown   |   0    |
+|7236 |       NgcIso.exe        |  Unknown   |   0    |
+|8048 |      WmiPrvSE.exe       |  Unknown   |   0    |
+|7904 |       wlanext.exe       |  Unknown   |   0    |
+|8412 |   gamingservices.exe    |  Unknown   |   0    |
+|8424 |  gamingservicesnet.exe  |  Unknown   |   0    |
+|8528 |       svchost.exe       |  Unknown   |   0    |
+|8748 |   AggregatorHost.exe    |  Unknown   |   0    |
+|5116 |       svchost.exe       |  Unknown   |   0    |
+|9016 |       svchost.exe       |  Unknown   |   0    |
+|8848 |       svchost.exe       |  Unknown   |   0    |
+|8728 |       svchost.exe       |  Unknown   |   0    |
+|9272 |       svchost.exe       |  Unknown   |   0    |
+|10008|  RtkAudUService64.exe   |  Unknown   |   0    |
+|10080|     nvcontainer.exe     |  Unknown   |   0    |
+|10088|      WmiPrvSE.exe       |  Unknown   |   0    |
+|9580 |     ipf_helper.exe      |  Running   |   3    |
+|9736 |     nvcontainer.exe     |  Running   |   3    |
+|9320 |       sihost.exe        |  Running   |   3    |
+|9372 |     nvcontainer.exe     |  Running   |   3    |
+|3116 |     mc-fw-host.exe      |  Unknown   |   0    |
+|7092 |       svchost.exe       |  Running   |   3    |
+|6848 |       svchost.exe       |  Running   |   3    |
+|9848 |       DAX3API.exe       |  Unknown   |   0    |
+|9500 |       svchost.exe       |  Running   |   3    |
+|10320|       svchost.exe       |  Running   |   3    |
+|10484|     iGoSwServer.exe     |  Running   |   2    |
+|10604|       svchost.exe       |  Unknown   |   0    |
+|10612|       svchost.exe       |  Unknown   |   0    |
+|10908|      taskhostw.exe      |  Running   |   3    |
+|11096|      explorer.exe       |  Running   |   3    |
+|11104|      ShellHost.exe      |  Running   |   3    |
+|11288|       svchost.exe       |  Unknown   |   0    |
+|11368|    SearchIndexer.exe    |  Unknown   |   0    |
+|11676|       svchost.exe       |  Running   |   3    |
+|12096|StartMenuExperienceHos...|  Running   |   3    |
+|12104|     SearchHost.exe      |  Running   |   3    |
+|12212|       Widgets.exe       |  Running   |   3    |
+|11604|    RuntimeBroker.exe    |  Running   |   3    |
+|11620|       svchost.exe       |  Running   |   3    |
+|10592|    RuntimeBroker.exe    |  Running   |   3    |
+|12432|    nvsphelper64.exe     |  Unknown   |   0    |
+|12496|   NVIDIA Overlay.exe    |  Running   |   3    |
+|13004|       dllhost.exe       |  Running   |   3    |
+|13348|       svchost.exe       |  Unknown   |   0    |
+|14192|   NVIDIA Overlay.exe    |  Running   |   4    |
+|14880|       ctfmon.exe        |  Unknown   |   0    |
+|15196|   NVIDIA Overlay.exe    |  Running   |   3    |
+|15208|   NVIDIA Overlay.exe    |  Running   |   3    |
+|15264|   NVIDIA Overlay.exe    |  Running   |   3    |
+|15380|SecurityHealthSystray.exe|  Running   |   3    |
+|15400|SecurityHealthService.exe|  Unknown   |   0    |
+|15552|  RtkAudUService64.exe   |  Running   |   3    |
+|15760|       jusched.exe       |  Running   |   3    |
+|15784|       svchost.exe       |  Unknown   |   0    |
+|6008 |    TextInputHost.exe    |  Running   |   5    |
+|16336|       chrome.exe        |  Running   |   3    |
+|16372|       chrome.exe        |  Running   |   3    |
+|4480 |       chrome.exe        |  Running   |   4    |
+|16368|       chrome.exe        |  Running   |   3    |
+|16252|       chrome.exe        |  Running   |   3    |
+|17124|       chrome.exe        |  Running   |   1    |
+|17236|       chrome.exe        |  Running   |   1    |
+|12624|       chrome.exe        |  Running   |   1    |
+|16664|   AWCC.SCSubAgent.exe   |  Unknown   |   0    |
+|7184 |AWGameLibrary.SCSubAge...|  Unknown   |   0    |
+|7376 |AWPerformance.SCSubAge...|  Unknown   |   0    |
+|17344|     XtuService.exe      |  Unknown   |   0    |
+|17116|   AWCC.UCSubAgent.exe   |  Running   |   3    |
+|1240 |   AlienFXSubAgent.exe   |  Running   |   3    |
+|1500 |AWGameLibrary.UCSubAge...|  Running   |   3    |
+|11072|AWPerformance.UCSubAge...|  Running   |   3    |
+|17756|  OCControl.Service.exe  |  Unknown   |   0    |
+|17904|       svchost.exe       |  Unknown   |   0    |
+|17944|       svchost.exe       |  Unknown   |   0    |
+|14956|       chrome.exe        |  Running   |   1    |
+|17824|  FxDisplayService.exe   |  Running   |   3    |
+|17540|     GameEyeApp.exe      |  Running   |   3    |
+|17624|       chrome.exe        |  Running   |   1    |
+|8992 | PhoneExperienceHost.exe |  Running   |   3    |
+|8268 |       svchost.exe       |  Unknown   |   0    |
+|3828 |Dell.CoreServices.Clie...|  Unknown   |   0    |
+|4672 |Dell.TechHub.Instrumen...|  Unknown   |   0    |
+|7968 |Dell.Update.SubAgent.exe |  Unknown   |   0    |
+|18980|       conhost.exe       |  Unknown   |   0    |
+|7120 |Dell.TechHub.DataManag...|  Unknown   |   0    |
+|18592|       conhost.exe       |  Unknown   |   0    |
+|19516|Dell.TechHub.Diagnosti...|  Unknown   |   0    |
+|19524|       conhost.exe       |  Unknown   |   0    |
+|19556|Dell.TechHub.Analytics...|  Unknown   |   0    |
+|19564|       conhost.exe       |  Unknown   |   0    |
+|19632|       conhost.exe       |  Unknown   |   0    |
+|19652|Dell.TechHub.Instrumen...|  Unknown   |   0    |
+|20588|       svchost.exe       |  Unknown   |   0    |
+|3644 |       svchost.exe       |  Unknown   |   0    |
+|16456|  DDVRulesProcessor.exe  |  Unknown   |   0    |
+|21096|   Dell.D3.WinSvc.exe    |  Unknown   |   0    |
+|17456|DellSupportAssistRemed...|  Unknown   |   0    |
+|20952|    ServiceShell.exe     |  Unknown   |   0    |
+|21740|       svchost.exe       |  Unknown   |   0    |
+|21880|    FusionService.exe    |  Unknown   |   0    |
+|22116|       svchost.exe       |  Unknown   |   0    |
+|22208|     servicehost.exe     |  Unknown   |   0    |
+|16708| SupportAssistAgent.exe  |  Unknown   |   0    |
+|21832|       uihost.exe        |  Running   |   3    |
+|22584|       svchost.exe       |  Running   |   3    |
+|22812|  DDVDataCollector.exe   |  Unknown   |   0    |
+|22892| DDVCollectorSvcApi.exe  |  Unknown   |   0    |
+|22976|    WidgetService.exe    |  Running   |   3    |
+|23352|   msedgewebview2.exe    |  Running   |   3    |
+|23376|   msedgewebview2.exe    |  Running   |   3    |
+|23540|   msedgewebview2.exe    |  Running   |   4    |
+|18888|   msedgewebview2.exe    |  Running   |   3    |
+|22692|   msedgewebview2.exe    |  Running   |   3    |
+|23276|   msedgewebview2.exe    |  Running   |   1    |
+|23720|       svchost.exe       |  Unknown   |   0    |
+|24564|       chrome.exe        |  Running   |   1    |
+|15224| ShellExperienceHost.exe |  Running   |   3    |
+|12336|    RuntimeBroker.exe    |  Running   |   3    |
+|24380|      WmiApSrv.exe       |  Unknown   |   0    |
+|14072|       chrome.exe        |  Running   |   3    |
+|22828|       chrome.exe        |  Running   |   3    |
+|4616 |ApplicationFrameHost.exe |  Running   |   3    |
+|21856|   SystemSettings.exe    |  Running   |   3    |
+|4620 |       svchost.exe       |  Unknown   |   0    |
+|21888|       svchost.exe       |  Running   |   3    |
+|21956|   UserOOBEBroker.exe    |  Running   |   3    |
+|6544 |       svchost.exe       |  Unknown   |   0    |
+|20496|       svchost.exe       |  Running   |   3    |
+|16364|       chrome.exe        |  Running   |   1    |
+|23064|       dllhost.exe       |  Running   |   3    |
+|18984|    RuntimeBroker.exe    |  Running   |   3    |
+|3740 |      SDXHelper.exe      |  Running   |   3    |
+|14332|       chrome.exe        |  Running   |   1    |
+|5268 |       chrome.exe        |  Running   |   3    |
+|12116|        Code.exe         |  Running   |   3    |
+|11408|        Code.exe         |  Running   |   3    |
+|14124|        Code.exe         |  Running   |   4    |
+|4456 |        Code.exe         |  Running   |   3    |
+|11728|        Code.exe         |  Running   |   3    |
+|23384|        Code.exe         |  Running   |   3    |
+|1660 |        Code.exe         |  Running   |   3    |
+|20392|        Code.exe         |  Running   |   3    |
+|6100 |        Code.exe         |  Running   |   3    |
+|9332 |      cpptools.exe       |  Running   |   3    |
+|6308 |       conhost.exe       |  Running   |   3    |
+|3884 |      cpptools.exe       |  Running   |   3    |
+|13120|       audiodg.exe       |  Unknown   |   0    |
+|4412 |    RuntimeBroker.exe    |  Running   |   3    |
+|10520|       svchost.exe       |  Unknown   |   0    |
+|11432|       svchost.exe       |  Unknown   |   0    |
+|4940 |     smartscreen.exe     |  Running   |   3    |
+|20332|       svchost.exe       |  Unknown   |   0    |
+|13560|         spm.exe         |  Running   |   3    |
+|19972|       conhost.exe       |  Running   |   3    |
+|24552|     OpenConsole.exe     |  Running   |   3    |
+|5044 |   WindowsTerminal.exe   |  Running   |   3    |
++-----+-------------------------+------------+--------+
+
