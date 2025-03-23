@@ -4,16 +4,19 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased] - 2025-03-22
 ### Added
-- New features and improvements that are in development.
-- Example: Dynamic logging system that generates two log files ("implementation_log.txt" and "process_log.txt") in a dedicated "logs" folder.
-
+- **Dynamic Table Logging:**  
+  - Process table output is now formatted with vertical and horizontal borders.
+  - The table is center-aligned in each column (PID, Status, Priority) while the Name column has a fixed width (25 characters) and truncates longer names with "..." for neat display.
+  - The same table format is used both on the console and when logging to the process log file.
+  
 ### Changed
-- Code refactoring for modularity (all modules now implemented as header-only in the `include/` folder).
-- Improved cross‑platform compatibility (supports both Linux and Windows with MinGW‑w64 for 64‑bit builds).
+- Updated process table printing to support center alignment for numeric columns and dynamic truncation for long process names.
+- Enhanced the ProcessLogger module to log the process table in the same table format to file.
+- Minor refactoring to keep table formatting code modular and maintainable.
 
 ### Fixed
-- Resolved minor issues with process control functions.
-- Fixed bugs in log file generation and updates.
+- Corrected alignment issues in the process table display compared to previous releases.
+- Improved consistency between console output and file log formatting.
 
 ---
 
