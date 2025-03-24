@@ -1,12 +1,12 @@
 # Smart Process Manager (SPM)
 
-### 📽️ Intro Video  
-Watch the Smart Process Manager in action! 
+## 📽️ Project Introduction Video
 
-<video width="100%" controls>
-  <source src="https://github.com/Peeyush-04/SPM/blob/prototype/assests/SPM.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+Get a quick overview of **Smart Process Manager (SPM)** by watching this introduction video:
+
+[![Watch the video](https://img.youtube.com/vi/oG1qN7PgpNQ/maxresdefault.jpg)](https://youtu.be/oG1qN7PgpNQ)
+
+🔗 Click the image above to watch the video on YouTube!
 
 **Smart Process Manager (SPM)** is a lightweight, cross‑platform process management tool written in C++. It provides real‑time process monitoring, control (such as killing or changing process priority), and detailed logging. SPM is built with modular, header‑only components to ensure easy maintenance and portability. It supports both Windows (via MinGW‑w64, 64‑bit) and Linux platforms.
 
