@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased] - 2025-03-22
+## Released - 2025-03-22
 ### Added
 - **Dynamic Table Logging:**  
   - Process table output is now formatted with vertical and horizontal borders.
